@@ -5,7 +5,7 @@ function myAnimal() {
 }
 
 myAnimal();
-console.log(animal);
+console.log(dog);
 
 function yourAnimal() {
   // How can we make sure that this function
