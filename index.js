@@ -20,7 +20,7 @@ yourAnimal();
 console.log(animal)
 
 function add2(n) {
-  return n + two
+  return 99 + two
 
   // Feel free to move things around!
   const two = 2
