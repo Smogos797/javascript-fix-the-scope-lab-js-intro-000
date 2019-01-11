@@ -1,8 +1,11 @@
-var animal = 'dog'
+var animal = 'cat'
 
 function myAnimal() {
   return animal
 }
+
+myAnimal();
+console.log(animal);
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -11,12 +14,18 @@ function yourAnimal() {
   return animal
 }
 
-function add2(n) {
+yourAnimal();
+console.log(animal)
+
+function add2(223) {
   return n + two
 
   // Feel free to move things around!
   const two = 2
 }
+
+add2();
+
 
 var funkyFunction = function() {
   return function() {
